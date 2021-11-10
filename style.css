@@ -13,38 +13,80 @@ margin: 0;
   align-items: center;
 }
 .icon {
-  width: 650px;
+  width: 705px;
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: space-between;
 }
 .icon_item {
-  width: 50px;
-  height: 50px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
+  color: #FFFFFF;
   background-color: #00689F;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .tablet:hover {
-  border-color: #FFFFFF;
+  
   box-shadow: 0 0 30px #00689F;
   background-color: #FFFFFF;
   border: 1px solid #00689F;
   color: #00689F;
 }
+svg {
+  fill: currentColor;
+
+}
 .settings:hover {
-  border-color: #FFFFFF;
   box-shadow: 0 0 30px #00689F;
   background-color: #FFFFFF;
   border: 1px solid #00689F;
   color: #00689F;
 }
 .dashboard:hover {
-  border-color: #FFFFFF;
   box-shadow: 0 0 30px #00689F;
   background-color: #FFFFFF;
   border: 1px solid #00689F;
+  color: #00689F;
+}
+.tablet_text {
+  width: 225px;
+  height: 85px;
+  margin-left: 235px;
+  margin-top: -10px;
+}
+.settings_text {
+  width: 225px;
+  height: 85px;
+  margin-left: 560px;
+  margin-top: -95px;
+}
+.dashboard_text {
+  width: 225px;
+  height: 85px;
+  margin-left: 885px;
+  margin-top: -95px;
+}
+h2 {
+  margin-left: 35px;
+  max-width: 175px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova';
+  font-size: 14px;
+  justify-content: center;
+  text-align: center;
+}
+p {
+  width: 255px;
+  line-height: 25px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
