@@ -13,8 +13,7 @@ margin: 0;
   align-items: center;
 }
 .icon {
-  width: 950px;
-  color: aqua;
+  width: 650px;
   list-style: none;
   padding: 0;
   display: flex;
@@ -24,8 +23,28 @@ margin: 0;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid #00689F;
+  background-color: #00689F;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.tablet:hover {
+  border-color: #FFFFFF;
+  box-shadow: 0 0 30px #00689F;
+  background-color: #FFFFFF;
+  border: 1px solid #00689F;
+  color: #00689F;
+}
+.settings:hover {
+  border-color: #FFFFFF;
+  box-shadow: 0 0 30px #00689F;
+  background-color: #FFFFFF;
+  border: 1px solid #00689F;
+  color: #00689F;
+}
+.dashboard:hover {
+  border-color: #FFFFFF;
+  box-shadow: 0 0 30px #00689F;
+  background-color: #FFFFFF;
+  border: 1px solid #00689F;
 }
