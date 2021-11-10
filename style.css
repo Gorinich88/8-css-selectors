@@ -31,26 +31,29 @@ margin: 0;
 }
 .tablet:hover {
   
-  box-shadow: 0 0 30px #00689F;
+  box-shadow: 0 0 20px #00689F;
   background-color: #FFFFFF;
   border: 1px solid #00689F;
   color: #00689F;
+  transition: 0.7s;
 }
 svg {
   fill: currentColor;
 
 }
 .settings:hover {
-  box-shadow: 0 0 30px #00689F;
+  box-shadow: 0 0 20px #00689F;
   background-color: #FFFFFF;
   border: 1px solid #00689F;
   color: #00689F;
+  transition: 0.7s;
 }
 .dashboard:hover {
-  box-shadow: 0 0 30px #00689F;
+  box-shadow: 0 0 20px #00689F;
   background-color: #FFFFFF;
   border: 1px solid #00689F;
   color: #00689F;
+  transition: 0.7s;
 }
 .tablet_text {
   width: 225px;
